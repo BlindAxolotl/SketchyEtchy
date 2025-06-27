@@ -1,6 +1,6 @@
 const container = document.querySelector(".container");
 let count = 1;
-function createGrid() {
+function createGridRow() {
   for (let i = 0; i < 16; i++) {
     const cDiv = document.createElement("div");
     cDiv.classList.add("child");
@@ -11,4 +11,4 @@ function createGrid() {
   }
 }
 
-createGrid();
+createGridRow();
