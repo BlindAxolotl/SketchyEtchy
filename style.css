@@ -1,0 +1,10 @@
+.container {
+  background-color: black;
+  display: flex;
+}
+
+.child {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+}
